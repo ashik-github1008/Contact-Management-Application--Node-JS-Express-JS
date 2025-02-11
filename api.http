@@ -1,37 +1,37 @@
 ### Get all contacts
-GET http://localhost:5000/contacts
+GET https://contact-management-application-node-js.onrender.com/contacts
 
 ### Create a new contact
-POST http://localhost:5000/contacts
+POST https://contact-management-application-node-js.onrender.com/contacts
 Content-Type: application/json
 
 
 {
     "name": "John Doee",
-    "email": "john1234@example.com",
-    "phone": "9698687766",
+    "email": "johny15234@example.com",
+    "phone": "1234567890",
     "address": ""
 }
  
 
 ### Get a single contact
-GET http://localhost:5000/contacts/2
+GET https://contact-management-application-node-js.onrender.com/contacts/1
 
 
 ### Update a contact
-PUT http://localhost:5000/contacts/12
+PUT https://contact-management-application-node-js.onrender.com/contacts/1
 Content-Type: application/json
 
 {
-    "name": "",
-    "email": "",
-    "phone": "",
+    "name": "Ashik",
+    "email": "johny1234@example.com",
+    "phone": "9698687766",
     "address": ""
 }
 
  
 
 ### Delete a contact
-DELETE http://localhost:5000/contacts/11
+DELETE https://contact-management-application-node-js.onrender.com/contacts/3
 
 
